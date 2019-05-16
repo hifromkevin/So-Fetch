@@ -1,4 +1,5 @@
-On Wednesdays we wear pink.
-Four for you Glen Coco! You go, Glen Coco!
-She doesn't even go here!
-On October 3rd, he asked me what day it was. 
+<img src="fetch.gif" />
+<p>On Wednesdays we wear pink.</p>
+<p>Four for you Glen Coco! You go, Glen Coco!</p>
+<p>She doesn't even go here!</p>
+<p>On October 3rd, he asked me what day it was. </p>
