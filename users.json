@@ -1,0 +1,27 @@
+[
+	{
+		"id": 1,
+		"name": "Cady Heron",
+		"email": "cady@gmail.com"
+	},
+	{
+		"id": 2,
+		"name": "Regina George",
+		"email": "regina@gmail.com"
+	},
+	{
+		"id": 3,
+		"name": "Gretchen Wieners",
+		"email": "gretchen@gmail.com"
+	},
+	{
+		"id": 4,
+		"name": "Karen Smith",
+		"email": "karen@gmail.com"
+	},
+	{
+		"id": 5,
+		"name": "Damian",
+		"email": "damian@shedoesntevengohere.com"
+	}
+]
