@@ -1,0 +1,23 @@
+{
+  "name": "so-fetch",
+  "version": "1.0.0",
+  "description": "Fun with using fetch() for APIs This app offers an embarrassing amount of Mean Girls trivia.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hifromkevin/So-Fetch.git"
+  },
+  "author": "Kevin L.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hifromkevin/So-Fetch/issues"
+  },
+  "homepage": "https://github.com/hifromkevin/So-Fetch#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
