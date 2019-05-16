@@ -9,16 +9,18 @@ function getText() {
 	.catch(err => 'You can\'t sit with us!');
 };
 
-// function getText() {
-// 	let xhr = new XMLHttpRequest();
+document.getElementById('getUsers').addEventListener('click', getUsers);
 
-// 	xhr.open('GET', 'sample.txt');
-// 	xhr.onload = function() {
-// 		if (this.status === 200) {
-// 			console.log(this.responseText);
-// 		} else {
-// 			console.log('She doesn\'t even go here!');
-// 		}
-// 	};
-// 	xhr.send();
-// }
+function getUsers() {
+	fetch('users.json')
+	.then(res => res.json())
+	.then(data => {
+		let output = '<h2>Users</h2>';
+		data.forEach((user) => {
+			output += `<p><strong>User: </strong> ${user.name}</p>`;
+			output += `<p><strong>Email:</strong>  <em>${user.email}</em></p><br />`;
+		});
+		document.getElementById('fetchData').innerHTML = output;
+	})
+	.catch(err => 'You can\'t sit with us!');
+};
